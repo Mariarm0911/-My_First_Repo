@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav div {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: aqua;
+}
+
+nav {
+    background-color: rgb(178, 199, 23);
+}
+
+div#left {
+    width: 30%;
+    float: left;
+    height: 100vh;
+    background-color: rgb(255, 157, 0);
+
+}
+
+div#right {
+    width: 70%;
+    float: right;
+    height: 100vh;
+    background-color: rgb(144, 31, 88);
+}
+
+div#perrito {
+    text-align: center;
+    color: brown;
+    margin: 40px;
+
+}
+
+div#left div img {
+    width: 150px;
+}
+
+div#right div img {
+    width: 200px;
+    float: right;
+    margin: 10px 20px;
+}
+
+div#right {
+    text-align: left;
+}
+
+div#blurb img {
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+}
+
+div#blurb h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+div#photos img {
+    width: 150px;
+    height: 175px;
+    display: inline-block;
+}
+
+div#photos {
+    text-align: center;
+    border: 2px solid;
+    margin: 10px;
+}
+
+div#blurb p {
+    margin: 40px;
+}
+
+div#left ul {
+    margin: 40px;
+}
+
+div#left h2 {
+    margin: 20px;
+}
